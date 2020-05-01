@@ -6,13 +6,24 @@ layout: default
 
   <div class='o-grid'>
     <div class='o-grid__col'>
+      <!--article class='c-post'>
+        <h1 class='c-post__title u-text-center'>{{ page.title }}</h1>
+
+        <div class='c-content'>
+          {% include page-image.html %}
+
+          {{ content }}
+        </div>
+      </article-->
       <h4>{{ page.tag }}</h4>
     </div>
   </div>
 
   <div class='o-grid'>
-    {% for post in page.posts %}
-      {% include post-card.liquid %}
+    {% for post in site.posts %}
+      {% if post.tags contains page.tag %}
+        {% include post-card.liquid %}
+      {% endif %}
     {% endfor %}
   </div>
 
