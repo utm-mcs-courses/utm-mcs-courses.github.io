@@ -1,6 +1,6 @@
 ---
 layout: page
-title: About
+title: Statistics Courses
 image: '/images/pages/about.jpeg'
 ---
 

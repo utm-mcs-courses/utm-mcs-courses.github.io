@@ -1,6 +1,6 @@
 ---
 layout: page
-title: About
+title: Computer Science Courses
 image: '/images/pages/about.jpeg'
 ---
 

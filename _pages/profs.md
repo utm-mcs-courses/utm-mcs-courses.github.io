@@ -1,6 +1,6 @@
 ---
 layout: page
-title: About
+title: Professors
 image: '/images/pages/about.jpeg'
 ---
 

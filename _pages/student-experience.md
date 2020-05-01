@@ -1,6 +1,6 @@
 ---
 layout: page
-title: About
+title: Student Experience
 image: '/images/pages/about.jpeg'
 ---
 
