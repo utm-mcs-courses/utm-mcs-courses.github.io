@@ -2,7 +2,7 @@
 layout: post
 title: The first post!
 tags: [frontpage, jekyll, blog]
-image: '/images/posts/4.jpg'
+image: '/images/posts/first-post.jpg'
 ---
 
 Dear Reader, welcome! This is a website dedicated to documenting UTM MCS courses and profs!
