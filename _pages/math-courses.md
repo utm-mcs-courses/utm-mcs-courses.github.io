@@ -1,7 +1,7 @@
 ---
 layout: tag_page
 title: Math Courses
-image: '/images/pages/about.jpeg'
+image: '/images/pages/math.jpg'
 tag: 'math'
 ---
 
