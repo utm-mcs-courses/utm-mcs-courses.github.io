@@ -5,7 +5,9 @@ layout: default
 <div class='o-wrapper'>
   <div class='o-grid'>
     {% for post in paginator.posts %}
-      {% include post-card.liquid %}
+      {% if post contains 'blog'%}
+        {% include post-card.liquid %}
+      {% endif %}
     {% endfor %}
   </div>
 
